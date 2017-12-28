@@ -1,0 +1,62 @@
+@import url("normalize.css");
+
+body {
+  box-sizing: border-box;
+  background-image: url("visuals/fond.png");
+}
+
+.container {
+  min-width: 50%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+ul {
+  background-color: gold;
+  height: 36px;
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px;
+  text-shadow: 1px 1px bisque;
+}
+
+li:hover {
+  text-shadow: 1px 1px grey;
+}
+
+.virselis {
+  float: left;
+  height: 320px;
+  margin: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section {
+  padding: 30px;
+  background-color: antiquewhite;
+}
+
+section:hover {
+  background-color: white;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.griztiipradzia {
+  font-size: 0.75em;
+}
+
+.autoriausFoto {
+  height: 200px;
+  float: right;
+  margin: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
